@@ -34,16 +34,12 @@ body {
   display: flex;
 }
 
-.list__element {
-  height: 60px;
-  line-height: 60px;
-}
-
 .list__element:not(:last-child) {
   margin-right: 20px;
 }
 
 .nav_link {
+  height: 60px;
   font-size: 12px;
   color: #000;
   display: flex;
